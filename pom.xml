@@ -26,7 +26,7 @@
   <!--groupId>io.opentracing.contrib</groupId-->
   <groupId>com.deveryware</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.4.0-dw</version>
+  <version>0.1.4.0.dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
