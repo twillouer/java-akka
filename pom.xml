@@ -16,9 +16,16 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.deveryware</groupId>
+        <artifactId>super-pom</artifactId>
+        <version>1.5.18</version>
+        <relativePath/>
+  </parent>
+
   <groupId>io.opentracing.contrib</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.4-SNAPSHOT</version>
+  <version>0.1.4dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -53,10 +60,7 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/opentracing-contrib/java-akka</url>
-    <connection>scm:git:https://github.com/opentracing-contrib/java-akka.git</connection>
-    <developerConnection>scm:git:https://github.com/opentracing-contrib/java-akka.git
-    </developerConnection>
+	  <connection>scm:git:git@github.com:twillouer/java-akka.git</connection>
     <tag>HEAD</tag>
   </scm>
 
