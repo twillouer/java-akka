@@ -20,12 +20,12 @@
         <groupId>com.deveryware</groupId>
         <artifactId>super-pom</artifactId>
         <version>1.5.18</version>
-        <relativePath />
+        <relativePath/>
   </parent>
 
   <groupId>io.opentracing.contrib</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.4dw</version>
+  <version>0.1.4dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,7 +61,7 @@
 
   <scm>
 	  <connection>scm:git:git@github.com:twillouer/java-akka.git</connection>
-    <tag>0.1.4dw</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <!-- Developer section is needed for Maven Central, but doesn't need to include each person -->
