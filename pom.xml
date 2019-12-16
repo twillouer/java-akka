@@ -20,13 +20,13 @@
         <groupId>com.deveryware</groupId>
         <artifactId>super-pom</artifactId>
         <version>1.5.18</version>
-        <relativePath />
+        <relativePath/>
   </parent>
 
   <!--groupId>io.opentracing.contrib</groupId-->
   <groupId>com.deveryware</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.5-dw-SNAPSHOT</version>
+  <version>0.1.4.0-dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,17 +73,6 @@
       <url>https://gitter.im/opentracing/public</url>
     </developer>
   </developers>
-
-  <distributionManagement>
-    <repository>
-      <id>bintray</id>
-      <url>https://api.bintray.com/maven/opentracing/maven/opentracing-akka/;publish=1</url>
-    </repository>
-    <snapshotRepository>
-      <id>jfrog-snapshots</id>
-      <url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
-    </snapshotRepository>
-  </distributionManagement>
 
   <issueManagement>
     <system>Github</system>
