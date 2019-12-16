@@ -20,12 +20,12 @@
         <groupId>com.deveryware</groupId>
         <artifactId>super-pom</artifactId>
         <version>1.5.18</version>
-        <relativePath />
+        <relativePath/>
   </parent>
 
   <groupId>io.opentracing.contrib</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.5.dw-SNAPSHOT</version>
+  <version>0.1.4.dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
