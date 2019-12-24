@@ -26,7 +26,7 @@
   <!--groupId>io.opentracing.contrib</groupId-->
   <groupId>com.deveryware</groupId>
   <artifactId>opentracing-akka</artifactId>
-  <version>0.1.4.2.dw</version>
+  <version>0.1.4.3.dw-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -62,7 +62,7 @@
 
   <scm>
 	  <connection>scm:git:git@github.com:twillouer/java-akka.git</connection>
-    <tag>0.1.4.2.dw</tag>
+    <tag>0.1.4.0-dw</tag>
   </scm>
 
   <!-- Developer section is needed for Maven Central, but doesn't need to include each person -->
